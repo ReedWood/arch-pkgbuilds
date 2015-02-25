@@ -1,13 +1,13 @@
 # Maintainer: Wolfgang Mader <Wolfgang_Mader at brain-frog dot de>
 pkgname=fdmb-git
 pkgver=r0
-pkgrel=2
+pkgrel=3
 pkgdesc="Toolbox for estimating parameters in stochastic linear systems using the EM-algorithm"
 arch=('i686' 'x86_64')
 url="https://github.com/ReedWood/fdmb"
 license=('GPL')
-depends=('python' 'python-numpy')
-makedepends=('git' 'eigen')
+depends=()
+makedepends=('git' 'eigen' 'intel-tbb')
 optdepends=()
 options=()
 conflicts=()
